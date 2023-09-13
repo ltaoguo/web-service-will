@@ -31,6 +31,7 @@ module.exports = {
     "plugins": [
         "react"
     ],
+    "ignorePatterns": ["/config/**", "/node_modules/**"],
     "rules": {
         indent: [2, 4, { SwitchCase: 1 }],
         "react/react-in-jsx-scope": 0,
